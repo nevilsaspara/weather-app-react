@@ -37,7 +37,7 @@ const Home = () => {
               <div className="footer-info">
                 <div className="align-items-center justify-content-center">
                   <h6 className="d-flex align-items-center justify-content-center">
-                    <a href="https://github.com/nevilsaspara/react-weather-app/">
+                    <a href="https://github.com/nevilsaspara/weather-app-react">
                       Download Source Code
                     </a>
                   </h6>
