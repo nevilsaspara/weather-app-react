@@ -42,7 +42,7 @@ const Home = () => {
                     </a>
                   </h6>
                   <h6 className="d-flex align-items-center justify-content-center">
-                    Developed by Nevil Saspara with ❤️
+                    Developed by Nevil Saspara with 
                   </h6>
                 </div>
               </div>
