@@ -41,9 +41,11 @@ const Home = () => {
                       Download Source Code
                     </a>
                   </h6>
-                  <h6 className="d-flex align-items-center justify-content-center">
-                    Developed by Nevil Saspara with ❤️
-                  </h6>
+            <h6 className="d-flex align-items-center justify-content-center">
+                    Developed by Nevil Saspara with{" "}
+                    <span role="img" aria-label="love">
+                      ❤️
+                    </span>
                 </div>
               </div>
             </div>
