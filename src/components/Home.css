@@ -1,0 +1,152 @@
+.card {
+  padding: 0px;
+}
+
+.my-col {
+  height: 600px;
+}
+
+.my-input {
+  border-style: 10px solid red;
+}
+.main-my-img {
+  background: url(../images/background.jpg);
+  height: 760px;
+  width: 100%;
+}
+.card {
+  border: 0;
+  box-shadow: none;
+}
+.card-img {
+  border: 0;
+  box-shadow: none;
+}
+.card-img-overlay {
+  border: 0;
+  box-shadow: none;
+}
+input {
+  color: white;
+}
+input:focus {
+  color: white;
+}
+
+.footer-info {
+  color: white;
+  text-shadow: 0 0 1px white, 0 0 5px black;
+}
+.footer-info a {
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 1px white, 0 0 5px black;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.card {
+  border: none;
+}
+.my-input:focus {
+  background: rgb(121, 121, 187);
+  border: 1px solid white;
+}
+
+/* .vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+} */
+
+.my-card {
+  border-style: none;
+  /* border: 1px solid rebeccapurple; */
+}
+.card-img-overlay {
+  border-style: none;
+}
+.search-icon {
+  margin-top: 10px;
+  padding-left: 0px;
+  font-size: 20px;
+}
+
+.my-img {
+  border-style: none;
+}
+
+.card-img {
+  border-style: none;
+}
+
+.my-clock {
+  font-size: 25px;
+  padding-left: 12px;
+}
+
+.my-date {
+  justify-content: space-around;
+  text-align: left;
+}
+.my-date-2 {
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.hr {
+  width: 80%;
+  margin: auto;
+  border: 1px solid white;
+  margin-top: 10px;
+}
+
+.my-own-text {
+  font-size: 20px;
+}
+.my-own-text-name {
+  font-size: 20px;
+  padding-right: 12px;
+}
+
+.my-icon {
+  justify-content: space-around;
+  text-align: center;
+}
+.my-div {
+  justify-content: space-around;
+  text-align: center;
+}
+.own-margin {
+  margin: 24px;
+}
+
+.my-auto-temp {
+  justify-content: space-around;
+  text-align: right;
+  padding-right: 12px;
+
+  font-size: 37px;
+}
+@media screen and (max-width: 767px) {
+  .mobile-space {
+    margin-bottom: 15px;
+  }
+  .own-margin {
+    margin: 0 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-my-img {
+    background: url(../images/background.jpg);
+    height: 760px;
+    height: 100%;
+    width: 100%;
+  }
+}
