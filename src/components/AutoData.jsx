@@ -13,7 +13,7 @@ const AutoData = () => {
       let lon = position.coords.longitude;
       axios
         .get(
-          `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=b4fb58dc4f3ab576a9822d894dc586f2&units=metric`
+          `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=b4fb58dc4f3ab576a9822d894dc586f2&units=metric`
         )
         .then(function (response) {
           setInitdata(response.data);
